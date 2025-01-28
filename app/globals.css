@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply bg-white text-neutral-950
+}
+
+.layout{
+  @apply w-full  flex justify-center items-center 
+}
+.Nav{
+  @apply w-full px-3 sm:w-[80%] rounded-lg flex justify-between items-center
+}
+@font-face {
+  font-family: 'Jua';
+  src: url('/fonts/Jua-Regular.ttf');
+}
